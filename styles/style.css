@@ -286,11 +286,40 @@ li {
     font-size: 30px;
   }
 
+  .container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  section,
+  .hero,
+  .pricing,
+  .testimonials,
+  .cta,
+  .app-fav,
+  .yourwork,
+  .sponsors {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .grid-2,
   .pricing-grid,
   .testimonial,
   .grid-3 {
     grid-template-columns: 1fr;
+  }
+
+  .testimonial {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .testimonial-card,
+  .testimonial-card1 {
+    margin: auto;
+    max-width: 500px;
   }
 
   nav {
