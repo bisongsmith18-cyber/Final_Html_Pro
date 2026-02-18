@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  color: #1f2937;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  background: #043873;
+  padding: 1rem 0;
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #4f9cf9;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.btn-outline {
+  background-color: #ffe492;
+  border: 1px solid white;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.hero {
+  background: #043873 url("assets/images/Element.png") no-repeat center/cover;
+  padding: 80px 0;
+  color: white;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+}
+
+p,
+li {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.section,
+.yourwork {
+  padding: 80px 0;
+}
+
+.section.dark,
+.yourwork {
+  background: #043873;
+  color: white;
+}
+
+.section.light {
+  background: #f9fafb;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.reverse {
+  direction: rtl;
+}
+
+.reverse>* {
+  direction: ltr;
+}
+
+.img-box {
+  width: 100%;
+  height: 350px;
+  background: #cfe5ff;
+}
+
+.circle-graphic img {
+  width: 70%;
+  height: auto;
+}
+
+.pricing {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.price-card {
+  border: 1px solid #ffe492;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-org {
+  color: #ffe492;
+}
+
+.price-card.featured {
+  background: #043873;
+  color: white;
+}
+
+.price-card ul {
+  list-style-image: url("../assets/Icon.png");
+}
+
+.price-card.featured ul {
+  list-style-image: url("../assets/Iconli2.png");
+}
+
+.card-btn,
+.card-two {
+  padding: 15px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.card-btn {
+  background-color: white;
+  border: 1px solid #ffe492;
+}
+
+.card-two {
+  background-color: #4f9cf9;
+  border: none;
+  color: #f3f4f6;
+}
+
+.yourwork {
+  text-align: center;
+  line-height: 30px;
+}
+
+.sponsors {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.app-fav {
+  background: #043873 url("../assets/backgroundimage.png") no-repeat center/cover;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.testimonials {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  padding: 25px 0;
+  text-align: left;
+}
+
+.testimonial-card {
+  background-color: #4f9cf9;
+  padding: 35px;
+  border-radius: 5px;
+  color: #f3f4f6;
+}
+
+.testimonial-card1 {
+  padding: 35px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid gray;
+  padding-top: 20px;
+}
+
+.cta {
+  background: #043873;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.footer {
+  background: #043873;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 1px solid rgb(4 38 90);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#header {
+  text-align: center;
+  padding: 25px;
+}
+
+@media (max-width: 1024px) {
+
+  .grid-2,
+  .pricing-grid,
+  .testimonial,
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-top {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+
+  .grid-2,
+  .pricing-grid,
+  .testimonial,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .sponsor-logos {
+    justify-content: center;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    justify-content: center;
+  }
+}
