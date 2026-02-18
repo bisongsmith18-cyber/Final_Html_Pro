@@ -1,6 +1,6 @@
-## Final HTML/CSS Project 1.0
+# Final HTML/CSS Project 1.0
 
-##  Overview
+## Overview
 
 This project is a **pixel-perfect HTML & CSS implementation** of a provided Figma design. The goal is to replicate the UI as closely as possible using **only semantic HTML and raw CSS**, without JavaScript (unless explicitly instructed).
 
@@ -13,16 +13,16 @@ This project focuses on:
 
 ---
 
-##  Design Reference
+## Design Reference
 
 * **Figma File:**
   [https://www.figma.com/design/p0YLSx7e46Dxu1cVneDR/Whitepace---SaaS-Landing-Page-(Community)?node-id=9-100&p=f&t=ph5rB3i6qTqdcPAu-0](https://www.figma.com/design/p0YLSx7e46Dxu1cVneDR/Whitepace---SaaS-Landing-Page-%28Community%29?node-id=9-100&p=f&t=ph5rB3i6qTqdcPAu-0)
 
 ---
 
-##  Project Structure
+## Project Structure
 
-```
+```text
 project-root/
 │
 ├── index.html
@@ -35,7 +35,7 @@ project-root/
 
 ---
 
-##  Requirements
+## Requirements
 
 ### 1. HTML Structure
 
@@ -85,7 +85,7 @@ project-root/
 
 ---
 
-##  Project Checks
+## Project Checks
 
 Before submission, ensure:
 
@@ -97,13 +97,13 @@ Before submission, ensure:
 
 ---
 
-##  Deadline
+## Deadline
 
 **Monday, August 18, 2025 — 11:59 PM**
 
 ---
 
-##  How to Run the Project
+## How to Run the Project
 
 1. Clone the repository
 2. Open `index.html` in your browser
@@ -111,7 +111,7 @@ Before submission, ensure:
 
 ---
 
-##  License
+## License
 
 This project is for educational purposes only.
 
